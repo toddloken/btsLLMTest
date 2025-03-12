@@ -6,12 +6,19 @@ I tried to keep the Python libraries to simple ones as to not have the foundatio
 For sake of comparison here are the runtime results for 10M seasons simulated. 
 
 Language	Time	Longest Streak
-Python (Anaconda) – Jupyter Notebook	23.85 seconds	39
-Python (PyCharm)	21.83 seconds	43
-Rust (RustRover)	14.97 seconds	41
-C (CLion)	0.78 seconds	46
-C++ (CLion)	0.67 seconds	37
-Java (IntelliJ)	0.72 seconds	42
-C#  (MS Visual Studio)	1.0 seconds	44
+
+Python (Anaconda) – Jupyter Notebook	23.85 seconds	with longest streak of 39
+
+Python (PyCharm)	21.83 seconds	with longest streak of 43
+
+Rust (RustRover)	14.97 seconds	with longest streak of 41
+
+C (CLion)	0.78 seconds	with longest streak of 46
+
+C++ (CLion)	0.67 seconds	with longest streak of 37
+
+Java (IntelliJ)	0.72 seconds	with longest streak of 42
+
+C#  (MS Visual Studio)	1.0 seconds	4with longest streak of4
 
 I have a biased, but open-minded perspective. My conclusion is that for a simple task of moving code from one language to another, the LLMs can do the work of a junior programmer. But if you are asking the model to come up with the simulation in the first place and ask it on ways to make it better, then my money is on the junior programmers still versus the LLM. I think there a modest improvements that can be made, but when it comes to novel situations, even junior programmers, which most of us are in one or multiple languages still can make a simple conversion such as this much better than an LLM. 
